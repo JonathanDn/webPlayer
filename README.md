@@ -1,17 +1,3 @@
-# MP3's required to play the player:
-
-The three songs played by this player are:
-1. Night Owl by Broke for Free, the mp3 is available for download here = http://freemusicarchive.org/music/Broke_For_Free/Directionless_EP/Broke_For_Free_-_Directionless_EP_-_01_Night_Owl
-
-2. Hammerite by Bloodgod, the mp3 is available for download here = http://freemusicarchive.org/music/Blood_God/Catharsis/Bloodgod_Catharsis_03-Hammerite
-
-3. The Nightmare by Lee Rosevere, the mp3 is available for download here = http://freemusicarchive.org/music/Lee_Rosevere/Music_for_Podcasts_4/Lee_Rosevere_-_Music_for_Podcasts_4_-_14_The_Nightmare
-
-* The file names should be the following:
-1) "Broke_For_Free_Night_Owl.mp3"
-2) "Bloodgod_Hammerite.mp3"
-3) "Lee_Rosevere_The_Nightmare.mp3"
-
 # Player
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.1.3.
