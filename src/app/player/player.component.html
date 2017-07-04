@@ -1,0 +1,36 @@
+<div class="main-container">
+	<img class="sound-cloud" src="assets/sound-cloud-logo.png">
+	<img class="main" src="assets/broke_for_free.png">
+	<img class="bg" src="assets/bg-pattern.png">
+	<div class="player-actions">
+		<div class="left-actions">
+			<img (click)="getPreviousTrack()" src="assets/back.png" class="back">
+			<img *ngIf="!isPlaying" (click)="playTrack()" src="assets/play.png" class="play">
+			<div *ngIf="isPlaying" (click)="pauseTrack()" class="pause-btn">
+				<span></span>
+				<span></span>
+			</div>
+			<img (click)="getNextTrack()" class="forward" src="assets/forward.png">
+		</div>
+		<div class="right-data">
+			<div class="upper-section">
+				<span class="artist-name">{{ artistName }}</span>
+				<span class="song-name">{{ songName }}</span>
+			</div>
+			<div class="lower-section">
+				<div class="progress-bar">
+					<img class="progress-back" src="assets/rectangle-2.png">
+					<span id="progress" class="progress-front"></span>
+				</div>
+				<div class="elapsed-remaining">
+					<span class="elapsed">{{ elapsedTime}}</span>
+					<span class="remaining">{{ remainingTime}}</span>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<audio id="myAudio">
+	<source src="assets/sounds/Broke_For_Free_Night_Owl.mp3" type="audio/mp3">
+</audio>

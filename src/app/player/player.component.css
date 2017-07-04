@@ -1,0 +1,140 @@
+.bg {
+	position: absolute;
+	width: 500px;
+	height: 299px;
+  top: 300px;
+}
+
+.main {
+	z-index: 1;
+	width: 500px;
+	height: 500px;
+}
+
+.sound-cloud {
+	z-index: 2;
+	position: absolute;
+	left: 25px;
+	top: 25px;
+}
+
+.main-container {
+	display: flex;
+	flex-direction: column;
+}
+
+.player-actions {
+	display: flex;
+	position: absolute;
+	top: 520px;
+	left: 30px;
+	width: 450px;
+	height: 60px;
+}
+
+.player-actions > .left-actions {
+	display: flex;
+	width: 200px;
+}
+
+.player-actions > .left-actions > img {
+	margin-right: 20px;
+	cursor: pointer;
+}
+
+.player-actions > .left-actions > .forward {
+	width: 20px;
+	height: 21px;
+	margin-right: 30px;
+}
+
+.player-actions > .left-actions > .back {
+	width: 20px;
+	height: 21px;
+}
+
+.player-actions > .left-actions > .play {
+	width: 15px;
+	height: 21px;
+}
+
+.artist-name {
+	width: 104px;
+	height: 10px;
+	color: #395062;
+	font-family: Helvetica;
+	font-size: 13px;
+	font-weight: 300;
+	line-height: 13px;
+}
+
+.song-name {
+	width: 80px;
+	height: 10px;
+	color: #395062;
+	font-family: Helvetica;
+	font-size: 13px;
+	font-weight: bold;
+	line-height: 13px;
+	margin-left: 13px;
+}
+
+.player-actions > .right-data > .lower-section > .progress-bar {
+	display: flex;
+	height: 2px;
+	width: 300px;
+}
+
+.player-actions > .right-data > .lower-section > .progress-bar > .progress-back {
+	width: 300px;
+	height: 2px;
+	background-color: #e3e5e5;
+	border-radius: 1px;
+}
+
+.player-actions > .right-data > .lower-section > .progress-bar > .progress-front {
+	width: 0;
+	height: 2px;
+	background-color: #1dbb9b;
+	border-radius: 1px;
+	z-index: 1;
+	position: absolute;
+}
+
+.main-container > .player-actions > .right-data > .upper-section {
+	margin-bottom: 5px;
+}
+
+.main-container > .player-actions > .right-data > .lower-section > .elapsed-remaining {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.main-container > .player-actions > .right-data > .lower-section > .elapsed-remaining > span {
+	width: 35px;
+	height: 10px;
+	color: #999b9b;
+	font-family: Helvetica;
+	font-size: 13px;
+	font-weight: 300;
+	line-height: 13px;
+	margin-top: 11px;
+}
+
+.main-container > .player-actions > .left-actions {
+	margin-top: 5px;
+}
+
+.main-container > .player-actions > .left-actions > .pause-btn {
+	display:  flex;
+	margin-right: 15px;
+	cursor: pointer;
+}
+
+.main-container > .player-actions > .left-actions > .pause-btn > span {
+	width: 7px;
+	height: 21px;
+	background-color: #1dbb9b;
+	margin-right: 5px;
+}

@@ -1,0 +1,71 @@
+sound cloud logo css:
+
+width: 44px;
+height: 20px;
+opacity: 0.5;
+
+img css:
+
+width: 500px;
+height: 500px;
+
+bg-pattern css:
+width: 500px;
+height: 299px;
+
+forward - css:
+background-color: #1dbb9b;
+(computed width 26px, height 21px)
+
+back - rewind css:
+background-color: #1dbb9b;
+(computed width 26px, height 21px)
+
+play button css:
+
+width: 15px;
+height: 21px;
+background-color: 1dbb9b;
+
+artist-name-text css:
+width: 104px;
+height: 10px;
+color: #395062;
+font-family: Helvetica;
+font-size: 13px;
+font-weight: 300;
+line-height: 13px;
+
+song-name-text css:
+width: 80px;
+height: 10px;
+color: #395062;
+font-family: Helvetica;
+font-size: 13px;
+font-weight: 400;
+line-height: 13px;
+
+
+rectangle-2(song progress-bar transparent)
+width: 300px;
+height: 2px;
+border-radius: 1px;
+background-color: #e3e5e5;
+
+(should be a progress bar colore green like buttons
+that progresses along with time)
+
+Elapsed Time / Remaining Time css:
+width: 35px;
+height: 10px;
+color: #999b9b;
+font-family: Helvetica;
+font-size: 13px;
+font-weight: 300;
+line-height: 13px;
+
+
+
+
+
+
